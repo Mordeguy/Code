@@ -1,0 +1,78 @@
+<?php
+
+// Vehicle class ---------------------------------------------||
+
+class Vehicle {
+
+
+	protected var $make;
+	protected var $model;
+	protected var $year;
+	protected var $price;
+
+
+		function_construct() {
+			$this->make="":
+			$this->model="";
+			$this->year="";
+			$this->price="";
+		}
+
+
+		function_construct($new1, $new2, $new3,  $new4) {
+			$this->make = $new1;
+			$this->model = $new2;
+			$this->year = $new3;
+			$this->price = $new4;
+		}
+
+
+
+	public function_toString() {
+
+		return "Make: " . $this->make . " Model: " . $this->model . " Year: " . $this->year . " Price: " . $this->price . "<br>";
+	}
+
+
+
+} // End of Vehicle Class
+
+
+
+
+
+
+// LandVehicle Class -----------------------------------------||
+
+
+class LandVehicle extends Vehicle {
+
+	private $maxSpeed;
+
+		function_construct() {
+		
+			$this->maxSpeed="";
+
+		}
+
+
+		function_construct($speed) {
+
+			$this->maxSpeed = $speed;
+		}
+
+	
+	public function_toString() {
+
+		return parent::_toString(). " Max Speed: " . $this->maxSpeed;
+
+	}
+
+
+
+
+}
+
+
+
+?>

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='style.css' />
+		
+	</head>
+
+	<body>
+
+<?php
+include 'header.php';
+include 'menu.php';
+?>
+
+<form>
+
+  Range 1:
+  <input type="text" name="range1">
+  <br>
+  Range 2:
+  <input type="text" name="range2">
+  <br><br>
+  <input type="submit" name="submit" value="submit">
+</form>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+<?php
+
+ echo "<br/> Welcome to the header page of my Lab 6. Please make a choice from the menu.";
+
+	include 'footer.php';
+
+?>
+
+	</body>
+
+
+</html>

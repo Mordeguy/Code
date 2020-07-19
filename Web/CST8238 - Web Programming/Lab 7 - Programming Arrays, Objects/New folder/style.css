@@ -1,0 +1,103 @@
+body {
+
+
+	text-align: center;
+	
+
+     }
+
+
+/* This is the all HEADER info --------------------*/
+
+
+#banner {
+
+	width: 100%;
+	height: 10em;
+
+	}	
+
+#title {
+	
+	color: white;
+	font-size: 4em;
+	margin-top: -2em;
+	
+	}
+
+
+
+/* This is the all MENU info ----------------------*/
+
+#menu td {
+
+	border: solid black;
+	border-width: thin;
+	border-radius: 30%;
+	text-align: center;
+	
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: black;
+	
+	
+      }
+
+#menu a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-family: sans-serif;
+	
+
+
+  }
+
+table {
+	position:relaltive;
+	margin-top: -80em;
+	float: left;
+	display: block;
+
+      }
+
+#content {
+
+	margin-left:20%;
+	display: in-line;
+	text-align: center;
+	 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+/* This is the all FOOTER info --------------------*/
+
+
+#footer {
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	color: red;
+	background-color: red;
+
+	}
+
+a {
+	
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+  }
